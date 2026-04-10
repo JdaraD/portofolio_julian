@@ -290,6 +290,7 @@ body {
 
 .social-media-container p {
   font-size: 16px;
+  text-transform: capitalize;
   font-weight: 500;
   color: #eeeeee;
 }
