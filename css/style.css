@@ -124,7 +124,6 @@ body {
   flex-direction: row; /* Row untuk desktop */
   align-items: center;
   justify-content: space-between;
-  padding: 120px 5% 80px;
   max-width: 1400px;
   margin: 0 auto;
   gap: 5%;
@@ -804,7 +803,7 @@ body {
 /* TABLET (768px - 1024px) */
 @media (max-width: 1024px) {
   .container-profile {
-    padding: 100px 3% 50px;
+    padding: 200px 3% 50px;
     gap: 3%;
   }
 
@@ -904,10 +903,15 @@ body {
 
   /* LAYOUT MOBILE: FOTO DI ATAS */
   .container-profile {
+    display: flex;
     flex-direction: column; /* Foto di atas, text di bawah */
     text-align: center;
     padding: 100px 20px 50px;
     gap: 40px;
+  }
+
+  .profile-job {
+    justify-content: center;
   }
 
   .profile-identity {
