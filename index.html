@@ -1,0 +1,554 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Julian Diwandara - Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/index.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <div class="header">
+      <div class="header-logo">
+        <h1 class="title">My</h1>
+        <h1 class="subtitle">Portfolio</h1>
+      </div>
+      <nav class="header-menu" id="menu">
+        <a href="#home">Home</a>
+        <a href="#work-experience">Work Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#home">Contact</a>
+      </nav>
+      <div class="hamburger" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <!-- header -->
+
+    <!-- main content -->
+
+    <!-- profile -->
+    <div id="home" class="container-profile">
+      <!-- Profile Image DI ATAS -->
+      <div class="profile-image">
+        <img
+          src="assets/img/Desain tanpa judul (3).png"
+          alt="Julian Diwandara"
+        />
+        <div class="social-media-container">
+          <p>find me on</p>
+          <div class="social-media">
+            <a
+              href="https://www.linkedin.com/in/julian-diwandara/"
+              target="_blank"
+            >
+              <i class="fa-brands fa-linkedin-in linkedin-icon"></i>
+            </a>
+            <a href="https://github.com/JdaraD" target="_blank">
+              <i class="fa-brands fa-github github-icon"></i>
+            </a>
+            <a href="mailto:juliandara17@gmail.com" target="_blank">
+              <i class="fa-solid fa-envelope gmail-icon"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="profile-identity">
+        <div class="identity">
+          <h2>Hallo</h2>
+          <div class="profile-name">
+            <h1 class="intro">Saya</h1>
+            <h1 class="name">Julian Diwandara</h1>
+          </div>
+          <div class="profile-job">
+            <h3>Web Developer</h3>
+            <h3>|</h3>
+            <h3>IT Support</h3>
+          </div>
+        </div>
+        <div class="separator"></div>
+        <div class="profile-description">
+          <p class="description-1">
+            Saya Julian Diwandara dan biasa dikenal sebagai julian, Saya
+            merupakan individual yang memiliki ketertarikan dan kemampuan di
+            bidang teknologi informasi, khususnya sebagai IT Support dan Web
+            Developer. Saya memiliki pemahaman dalam instalasi, konfigurasi, dan
+            troubleshooting perangkat keras maupun perangkat lunak, serta mampu
+            menangani permasalahan jaringan dasar dan sistem operasi dengan
+            baik.
+          </p>
+          <p class="description-2 hidden-text">
+            Selain Itu, Saya memiliki Pengalaman Pembuatan Website menggunakan
+            Html, Css, JavaScript, Php, Framework(Laravel) dan database seperti
+            MySQL dan memahami konsep backend sederhana untuk membangun aplikasi
+            web yang fungsional dan responsive, pengalaman ini saya dapatkan
+            selama magang di selah satu Perusahaan, Selain itu Terampil
+            menggunakan Cisco Packet Tracer, Mikrotik (Basic Configuration),
+            Microsoft Office, dan Editing video maupun desain grafis.
+          </p>
+          <p class="description-3 hidden-text">
+            Saya memiliki kemampuan problem solving yang baik, responsif dalam
+            menangani kendala teknis, serta mampu bekerja secara individu maupun
+            dalam tim. Dengan kombinasi kemampuan teknis dan komunikasi yang
+            baik, saya siap memberikan dukungan IT yang optimal sekaligus
+            berkontribusi dalam pengembangan sistem berbasis web yang efektif
+            dan efisien.
+          </p>
+        </div>
+        <div class="profile-button">
+          <a href="assets/pdf/CV Julian Diwandara.pdf" target="_blank"
+            >View CV</a
+          >
+          <a
+            href="https://drive.google.com/file/d/1dL6EyCGcjPX7x04HN10iTCgQaJItYRvg/view?usp=drive_link"
+            target="_blank"
+            class="btn-outline"
+            >View Portfolio</a
+          >
+          <a href="#" class="more-info" onclick="toggleInfo(event)"
+            >More Info</a
+          >
+        </div>
+      </div>
+    </div>
+    <!-- profile -->
+
+    <!-- education -->
+    <section class="education" id="education">
+      <h2 class="section-title">Education</h2>
+
+      <div class="container-card">
+        <!-- Card 1 -->
+        <div class="edu-card">
+          <h3>Universitas Bina Sarana Informatika</h3>
+          <p class="edu-sub">Bachelors Teknologi Informasi • 2021 – 2025</p>
+
+          <div class="edu-score">
+            <span>GPA / Score</span>
+            <div class="progress">
+              <div class="progress-bar" style="width: 94%"></div>
+            </div>
+            <span class="score-text">3.86 / 4.0</span>
+          </div>
+
+          <p class="edu-desc">IT Bootcamp web development bsi 2023</p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="edu-card">
+          <h3>SMK YAPIA PARUNG</h3>
+          <p class="edu-sub">MULTIMEDIA • 2017 – 2020</p>
+
+          <div class="edu-score">
+            <span>Final Score</span>
+            <div class="progress">
+              <div class="progress-bar" style="width: 86%"></div>
+            </div>
+            <span class="score-text">86 / 100</span>
+          </div>
+
+          <p class="edu-desc">
+            Aktif mengikuti kegiatan ekskul bulutangkis 2017-2019
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- education -->
+
+    <!-- Work Experience -->
+    <section class="work-experience" id="work-experience">
+      <h2 class="section-title">Work Experience</h2>
+
+      <div class="work-container">
+        <!-- Card 1 -->
+        <div class="work-card">
+          <div class="experience-header">
+            <h3>Web Developer (Internship)</h3>
+            <p>PT Mardawa Intiguna Persada • Sep 2024 – Feb 2025</p>
+          </div>
+
+          <ul class="experience-list">
+            <li>
+              Mengembangkan aplikasi absensi berbasis web menggunakan framework
+              Laravel dan Livewire.
+            </li>
+            <li>
+              Mendesain UI/UX untuk beberapa proyek internal perusahaan
+              menggunakan prinsip tampilan yang responsif dan user friendly.
+            </li>
+            <li>Setup jaringan LAN untuk ruangan baru</li>
+            <li>Memberikan dukungan teknis kepada mahasiswa pengguna lab</li>
+            <li>
+              Berkontribusi dalam proyek perusahaan berupa pembuatan website
+              sekolah gratis, mulai dari perancangan konsep hingga implementasi
+              halaman utama.
+            </li>
+            <li>
+              Melakukan pengujian sistem dan pemeliharaan jaringan, memastikan
+              seluruh website berjalan stabil dan aman.
+            </li>
+            <li>
+              Mengasah kemampuan pemrograman Laravel, Livewire, MySQL, serta
+              kolaborasi tim dalam lingkungan kerja profesional.
+            </li>
+            <li>
+              Membuat desain konten untuk website SPMB Kota Bogor Jenjang SD dan
+              SMP.
+            </li>
+            <li>Mempelajari Framework Laravel</li>
+            <li>Mempelajari Database MySQL</li>
+          </ul>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="work-card">
+          <div class="experience-header">
+            <h3>Pusat Penelitian Ilmu Pengetahuan dan Teknologi (Puspitek)</h3>
+            <p>2018</p>
+          </div>
+
+          <p class="work-desc">
+            Pusat Penelitian Ilmu Pengetahuan dan Teknologi (Puspiptek) adalah
+            nama Kawasan Riset Terbesar di Indonesia yang dikenal sebagai
+            Kawasan Puspiptek. Dengan tujuan untuk mendukung proses
+            industrialisasi di Indonesia maka Puspiptek dirancang untuk menjadi
+            kawasan yang mensinergikan SDM terdidik dan terlatih, peralatan
+            penelitian dan pelayanan teknis yang paling lengkap di Indonesia
+            serta teknologi dan keahlian yanq telah terakumulasikan selama lebih
+            dari seperempat abad.
+          </p>
+
+          <ul class="experience-list">
+            <li>Melakukan pembuatan ulang struktur jaringan reactor</li>
+            <li>Melakukan Perapihan Dokumen – dokumen penting</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- Work Experience -->
+
+    <!-- Skills -->
+    <section class="skills-section" id="skill">
+      <div class="skills-container">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3><i class="fas fa-code"></i> Programming</h3>
+
+            <div class="skill-item">
+              <span>PHP</span>
+              <div class="progress-bar"><div style="width: 80%"></div></div>
+            </div>
+
+            <div class="skill-item">
+              <span>JavaScript</span>
+              <div class="progress-bar"><div style="width: 80%"></div></div>
+            </div>
+
+            <div class="skill-item">
+              <span>HTML / CSS</span>
+              <div class="progress-bar"><div style="width: 90%"></div></div>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <h3><i class="fas fa-tools"></i> Tools & Frameworks</h3>
+
+            <div class="skill-item">
+              <span>Git & GitHub</span>
+              <div class="progress-bar"><div style="width: 70%"></div></div>
+            </div>
+
+            <div class="skill-item">
+              <span>React</span>
+              <div class="progress-bar"><div style="width: 40%"></div></div>
+            </div>
+
+            <div class="skill-item">
+              <span>Node.js</span>
+              <div class="progress-bar"><div style="width: 40%"></div></div>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <h3><i class="fas fa-comments"></i> Soft Skills</h3>
+
+            <div class="skill-item">
+              <span>Communication</span>
+              <div class="progress-bar"><div style="width: 90%"></div></div>
+            </div>
+
+            <div class="skill-item">
+              <span>Teamwork</span>
+              <div class="progress-bar"><div style="width: 88%"></div></div>
+            </div>
+
+            <div class="skill-item">
+              <span>Problem Solving</span>
+              <div class="progress-bar"><div style="width: 85%"></div></div>
+            </div>
+          </div>
+
+          <div class="skill-card large-card">
+            <h3><i class="fas fa-desktop"></i> Hardware & Support</h3>
+
+            <div class="skill-item">
+              <span>Computer Hardware</span>
+              <div class="progress-bar"><div style="width: 90%"></div></div>
+            </div>
+
+            <div class="skill-item">
+              <span>IT Support</span>
+              <div class="progress-bar"><div style="width: 90%"></div></div>
+            </div>
+
+            <div class="skill-item">
+              <span>Help Desk Support</span>
+              <div class="progress-bar"><div style="width: 90%"></div></div>
+            </div>
+
+            <div class="skill-item">
+              <span>Troubleshooting</span>
+              <div class="progress-bar"><div style="width: 85%"></div></div>
+            </div>
+
+            <div class="skill-item">
+              <span>Software Installation</span>
+              <div class="progress-bar"><div style="width: 90%"></div></div>
+            </div>
+          </div>
+
+          <div class="skill-card large-card">
+            <h3><i class="fas fa-network-wired"></i> Networking & Database</h3>
+
+            <div class="skill-item">
+              <span>Computer Networking</span>
+              <div class="progress-bar"><div style="width: 80%"></div></div>
+            </div>
+
+            <div class="skill-item">
+              <span>MySQL</span>
+              <div class="progress-bar"><div style="width: 75%"></div></div>
+            </div>
+          </div>
+
+          <div class="skill-card large-card">
+            <h3><i class="fas fa-layer-group"></i> Full Stack (Basic)</h3>
+
+            <div class="skill-item">
+              <span>HTML / CSS</span>
+              <div class="progress-bar"><div style="width: 85%"></div></div>
+            </div>
+
+            <div class="skill-item">
+              <span>JavaScript</span>
+              <div class="progress-bar"><div style="width: 70%"></div></div>
+            </div>
+
+            <div class="skill-item">
+              <span>PHP</span>
+              <div class="progress-bar"><div style="width: 80%"></div></div>
+            </div>
+
+            <div class="skill-item">
+              <span>React (Frontend)</span>
+              <div class="progress-bar"><div style="width: 40%"></div></div>
+            </div>
+
+            <div class="skill-item">
+              <span>Node.js (Backend)</span>
+              <div class="progress-bar"><div style="width: 40%"></div></div>
+            </div>
+
+            <div class="skill-item">
+              <span>REST API</span>
+              <div class="progress-bar"><div style="width: 55%"></div></div>
+            </div>
+
+            <div class="skill-item">
+              <span>MySQL / Database</span>
+              <div class="progress-bar"><div style="width: 70%"></div></div>
+            </div>
+
+            <div class="skill-item">
+              <span>Git & Version Control</span>
+              <div class="progress-bar"><div style="width: 75%"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Skills -->
+
+    <!-- Certificates -->
+    <section class="certifications" id="certifications">
+      <div class="container-cert">
+        <h2 class="section-title">Certifications</h2>
+
+        <div class="cert-grid">
+          <!-- Card 1 -->
+          <div class="cert-card">
+            <div class="cert-icon">
+              <i class="fas fa-certificate"></i>
+            </div>
+
+            <div class="cert-content">
+              <h3>Pemrograman</h3>
+              <p><i class="fas fa-building"></i> BNSP</p>
+              <p><i class="fas fa-calendar"></i> Sep 2025 - Sep 2027</p>
+
+              <a
+                href="https://drive.google.com/file/d/16GqPdcOsw8ly8bnETgwLqS2Tj9aj3Aak/view?usp=drive_link"
+                target="_blank"
+                class="cert-btn"
+                >View Certificate</a
+              >
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="cert-card">
+            <div class="cert-icon">
+              <i class="fas fa-certificate"></i>
+            </div>
+
+            <div class="cert-content">
+              <h3>CCNAv7: Introduction to Networks</h3>
+              <p><i class="fas fa-building"></i> Cisco Networking Academy</p>
+              <p><i class="fas fa-calendar"></i> Jan 2023</p>
+
+              <a
+                href="https://drive.google.com/file/d/17gC-QWgTdMTQIavukoSKOaQRKvsFdtCA/view?usp=drive_link"
+                target="_blank"
+                class="cert-btn"
+                >View Certificate</a
+              >
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="cert-card">
+            <div class="cert-icon">
+              <i class="fas fa-certificate"></i>
+            </div>
+
+            <div class="cert-content">
+              <h3>Python</h3>
+              <p>
+                <i class="fas fa-building"></i> PCAP: Programming Essentials in
+                Python
+              </p>
+              <p><i class="fas fa-calendar"></i> Jan 2023</p>
+
+              <a
+                href="https://drive.google.com/file/d/1qCMUD_4-Z4mC6v_blAPoAiYuSmFWHQ7g/view?usp=drive_link"
+                target="_blank"
+                class="cert-btn"
+                >View Certificate</a
+              >
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="cert-card">
+            <div class="cert-icon">
+              <i class="fas fa-certificate"></i>
+            </div>
+
+            <div class="cert-content">
+              <h3>IT BootCamp "Software Development"</h3>
+              <p>
+                <i class="fas fa-building"></i> Universitas Bina Sarana
+                Informatika
+              </p>
+              <p><i class="fas fa-calendar"></i> Jun 2023</p>
+
+              <a
+                href="https://drive.google.com/file/d/1yTkmh7jh--UdeZQOgazOIRFrQpHvKPrS/view?usp=drive_link"
+                target="_blank"
+                class="cert-btn"
+                >View Certificate</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Certificates -->
+
+    <!-- Hobbies -->
+    <section class="hobbies-section" id="hobbies">
+      <div class="hobbies-container">
+        <h2 class="section-title">Hobbies & Interests</h2>
+
+        <div class="hobbies-grid">
+          <div class="hobby-card">
+            <i class="fas fa-gamepad"></i>
+            <h3>Gaming</h3>
+          </div>
+
+          <div class="hobby-card">
+            <i class="fas fa-music"></i>
+            <h3>Music</h3>
+          </div>
+
+          <div class="hobby-card">
+            <i class="fas fa-hiking"></i>
+            <h3>Hiking</h3>
+          </div>
+
+          <div class="hobby-card">
+            <i class="fas fa-laptop-code"></i>
+            <h3>Open Source</h3>
+          </div>
+
+          <div class="hobby-card">
+            <i class="fa-regular fa-futbol"></i>
+            <h3>Sport</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hobbies -->
+
+    <!-- Jobs -->
+    <section class="jobs-section" id="jobs">
+      <div class="jobs-container">
+        <h2 class="section-title">Work Roles</h2>
+
+        <div class="jobs-grid">
+          <div class="job-card">
+            <h3>Web Developer</h3>
+          </div>
+
+          <div class="job-card">
+            <h3>IT Support</h3>
+          </div>
+
+          <div class="job-card">
+            <h3>IT Help Desk</h3>
+          </div>
+
+          <div class="job-card">
+            <h3>Editing video/Grafis</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Jobs -->
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
