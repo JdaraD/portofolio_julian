@@ -619,7 +619,6 @@ body {
 .certifications {
   color: #fff;
   padding: 100px 5%;
-  background: linear-gradient(135deg, #1a1a2e, #16213e);
 }
 
 .container-cert {
@@ -747,7 +746,6 @@ body {
 .jobs-section {
   color: #fff;
   padding: 100px 5%;
-  background: linear-gradient(180deg, #11142b 0%, #0f1020 100%);
 }
 
 .jobs-container {
