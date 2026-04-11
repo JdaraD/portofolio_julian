@@ -716,6 +716,8 @@ body {
   gap: 14px;
   transition: all 0.3s ease;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
 }
 
 .hobby-card:hover {
@@ -770,6 +772,8 @@ body {
   gap: 14px;
   transition: all 0.3s ease;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
 }
 
 .job-card:hover {
