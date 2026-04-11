@@ -720,7 +720,6 @@ body {
 
 .hobby-card:hover {
   transform: translateY(-6px);
-  border-color: rgba(116, 86, 255, 0.45);
   box-shadow: 0 12px 28px rgba(116, 86, 255, 0.18);
 }
 
@@ -775,7 +774,6 @@ body {
 
 .job-card:hover {
   transform: translateY(-6px);
-  border-color: rgba(116, 86, 255, 0.45);
   box-shadow: 0 12px 28px rgba(116, 86, 255, 0.18);
 }
 
