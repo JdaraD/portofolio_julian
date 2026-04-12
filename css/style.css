@@ -600,15 +600,15 @@ body {
   margin-bottom: 10px;
 }
 
-.progress-bar {
+.skill-progress-bar {
   width: 100%;
   height: 6px;
-  background: linear-gradient(90deg, #7456ff, #a78bff);
+  background: #2a2a3d;
   border-radius: 999px;
   overflow: hidden;
 }
 
-.progress-bar div {
+.skill-progress-bar div {
   height: 100%;
   background: linear-gradient(90deg, #7456ff, #9d8cff);
   border-radius: 999px;
